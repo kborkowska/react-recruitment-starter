@@ -9,6 +9,10 @@ Getting started:
 
 ## Task Overview
 
+We would like you to implement a simple directory browser, using data from the following API:
+
+[API Documentation](https://randomuser.me/documentation#howto)
+
 The following requirements should be met:
 
 1. The directory should be accessed via the /directory route (leaving this page intact)

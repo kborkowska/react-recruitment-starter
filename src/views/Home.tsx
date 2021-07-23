@@ -64,6 +64,10 @@ export function Home() {
                 <li>Adding a search / filter</li>
                 <li>Tests</li>
                 <li>Accessibility</li>
+                <li>
+                  Over-engineering - show off with some patterns and practices
+                  you would use in a more complex app
+                </li>
               </ul>
             </Typography>
             <Typography variant="body2" align="left"></Typography>

@@ -26,6 +26,7 @@ Extra credit for:
 - Adding a search / filter
 - Tests
 - Accessibility
+- Over-engineering - show off with some patterns and practices you would use in a more complex app
 
 ## Submitting your completed task
 

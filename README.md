@@ -34,7 +34,7 @@ Extra credit for:
 
 ## Notes
 
-This task should take you around 4 hours to complete. Please do not spend significantly more time on it, we would like to see a submission based on what you achieve in this time.
+You should aim to spend around 4 hours on the task. You may use more time if you want to, but no more than 8 hours in total - we would like to see a submission based on what you achieve in this time.
 
 The level of role you are applying for (Junior/Mid/Senior) will be taken into consideration during review.
 

@@ -32,6 +32,12 @@ Extra credit for:
 - Accessibility
 - Over-engineering - show off with some patterns and practices you would use in a more complex app
 
+## Notes
+
+This task should take you around 4 hours to complete. Please do not spend significantly more time on it, we would like to see a submission based on what you achieve in this time.
+
+The level of role you are applying for (Junior/Mid/Senior) will be taken into consideration during review.
+
 ## Submitting your completed task
 
 We would like to see your completed task either in a forked repo, or submitted as a .zip archive.

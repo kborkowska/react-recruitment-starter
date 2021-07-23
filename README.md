@@ -15,7 +15,7 @@ We would like you to implement a simple directory browser, using data from the f
 
 The following requirements should be met:
 
-1. The directory should be accessed via the /directory route (leaving this page intact)
+1. The directory should be accessed via the /directory route (leaving existing content intact)
 1. The main view should consist of a paginated list, showing a thumbnail, name and city for each person
 1. It should be possible to view more detail for any person (either in a modal or detail panel) showing their address, email, phone number and date of birth
 

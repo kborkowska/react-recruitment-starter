@@ -1,20 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import ThemeProvider from "@material-ui/styles/ThemeProvider";
-import { theme } from "./theme";
 import { BrowserRouter } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "react-query";
+import { Provider as StoreProvider } from "react-redux";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import ThemeProvider from "@material-ui/styles/ThemeProvider";
+
+import { theme } from "./theme";
+import store from "./store";
+import reportWebVitals from "./reportWebVitals";
+
+import App from "./App";
+
+const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <CssBaseline />
-        <App />
-      </BrowserRouter>
-    </ThemeProvider>
+    <QueryClientProvider client={queryClient}>
+      <StoreProvider store={store}>
+        <ThemeProvider theme={theme}>
+          <BrowserRouter>
+            <CssBaseline />
+            <App />
+          </BrowserRouter>
+        </ThemeProvider>
+      </StoreProvider>
+    </QueryClientProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
